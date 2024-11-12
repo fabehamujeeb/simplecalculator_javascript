@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    background-color: #040404b6;
+}
+.calculator {
+    background: rgb(150, 148, 148);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#result {
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+.buttons {
+    display: grid;
+    gap: 10px;
+}
+button {
+    padding: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #bd6f5f;
+    color: white;
+}
+button:hover {
+    background-color: #4e657c;
+}
